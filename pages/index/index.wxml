@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<import  src="../../views/menu/index.wxml"/>
+<view class="container">
+<template is="menu" data="{{menus,menuIndex}}"></template>
+</view>

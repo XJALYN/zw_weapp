@@ -1,0 +1,7 @@
+<!--pages/login/index.wxml-->
+
+<div class="container">
+<text class="title">智玩</text>
+<button class="button-login" bindgetphonenumber="onGetPhone" open-type="getPhoneNumber">登录</button>
+</div>
+

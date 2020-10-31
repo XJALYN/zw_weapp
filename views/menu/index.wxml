@@ -1,0 +1,8 @@
+<template name="menu">
+ <scroll-view  scroll-x  class="menu">
+   <view class="menu-item {{menuIndex==index?'menu-item--active ':''}}" wx:for="{{menus}}" bindtap="onSelectMenu" data-index="{{index}}" wx:key="menu">
+  {{item}}
+  <view class="{{menuIndex==index?'menu-item__line  menu-item__line--active ':'menu-item__line '}}"></view>
+  </view>
+ </scroll-view>
+</template>
